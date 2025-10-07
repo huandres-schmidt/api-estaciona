@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: estaciona
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/estaciona_db
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
